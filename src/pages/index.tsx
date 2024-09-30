@@ -11,7 +11,7 @@
 //import Profile from './qcomps/gallery_props'
 //import PackingList from './qcomps/props_item'
 //import List from './qcomps/list_keys_id'
-import RecipeList from './qcomps/recipes'
+//import RecipeList from './qcomps/recipes'
 export default function Home() {
   return (
     <div>
@@ -23,7 +23,7 @@ export default function Home() {
       {/*<Profile /> */} {/* fixed gallery_props.tsx */}
       {/*<PackingList /> */} {/* display props_item.tsx */}
       {/*<List /> */} {/* display list_keys_id.tsx */}
-      <RecipeList /> {/* display recipes.tsx */}
+      {/*<RecipeList /> */} {/* display recipes.tsx */}
     </div>
    
   )
