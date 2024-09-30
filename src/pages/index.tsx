@@ -8,8 +8,10 @@
 //import Bio from "./qcomps/bios"
 //import TodoList from "./qcomps/todos"
 //import Profile from './components/profile_props'
-import Profile from './qcomps/gallery_props'
-import PackingList from './qcomps/props_item'
+//import Profile from './qcomps/gallery_props'
+//import PackingList from './qcomps/props_item'
+//import List from './qcomps/list_keys_id'
+import RecipeList from './qcomps/recipes'
 export default function Home() {
   return (
     <div>
@@ -18,8 +20,10 @@ export default function Home() {
       {/*<Bio /> */} {/* fixed bios.tsx */}
       {/*<TodoList /> */} {/* fixed todos.tsx */}
       {/*<Profile /> */} {/* display profile_props.tsx */}  
-      <Profile /> 
+      {/*<Profile /> */} {/* fixed gallery_props.tsx */}
       {/*<PackingList /> */} {/* display props_item.tsx */}
+      {/*<List /> */} {/* display list_keys_id.tsx */}
+      <RecipeList /> {/* display recipes.tsx */}
     </div>
    
   )
