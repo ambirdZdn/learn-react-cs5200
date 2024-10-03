@@ -10,8 +10,15 @@
 //import Profile from './components/profile_props'
 //import Profile from './qcomps/gallery_props'
 //import PackingList from './qcomps/props_item'
+//import List from './components/list_plain'
 //import List from './qcomps/list_keys_id'
 //import RecipeList from './qcomps/recipes'
+//import State from './qcomps/state'
+//import PersonData from './components/stateObj'
+//import Form from './qcomps/stuckForm'
+//import FeedbackForm from './qcomps/thankYouCrash'
+//import Counter from './components/snapshot'
+import Form from "./components/snapshot2"
 export default function Home() {
   return (
     <div>
@@ -22,8 +29,15 @@ export default function Home() {
       {/*<Profile /> */} {/* display profile_props.tsx */}  
       {/*<Profile /> */} {/* fixed gallery_props.tsx */}
       {/*<PackingList /> */} {/* display props_item.tsx */}
+      {/*<List /> */} {/* display list_plain.tsx */}
       {/*<List /> */} {/* display list_keys_id.tsx */}
       {/*<RecipeList /> */} {/* display recipes.tsx */}
+      {/*<State /> display state.tsx */}
+      {/*<PersonData /> display stateObj.tsx */}
+      {/* <Form /> display stuckForm.tsx */}
+      {/*<FeedbackForm />  display thankYouCrash.tsx */}
+      {/*<Counter />  display snapshot.tsx */}
+      <Form />  {/* display snapshot2.tsx */}
     </div>
    
   )
