@@ -18,7 +18,13 @@
 //import Form from './qcomps/stuckForm'
 //import FeedbackForm from './qcomps/thankYouCrash'
 //import Counter from './components/snapshot'
-import Form from "./components/snapshot2"
+//import Form from "./components/snapshot2"
+//import RequestTracker from "./qcomps/shoppingCart"
+//import Form from "./components/updObjects"
+//import Scoreboard from "./qcomps/updObjectsForm"
+//import List from "./qcomps/artistsRemoveArr"
+//import List from "./components/artistsArr"  
+import BucketList from "./qcomps/arrObj"
 export default function Home() {
   return (
     <div>
@@ -37,7 +43,13 @@ export default function Home() {
       {/* <Form /> display stuckForm.tsx */}
       {/*<FeedbackForm />  display thankYouCrash.tsx */}
       {/*<Counter />  display snapshot.tsx */}
-      <Form />  {/* display snapshot2.tsx */}
+      {/* <Form />  display snapshot2.tsx */}
+      {/*<RequestTracker />   display shoppingCart.tsx */}
+      {/*<Form />   display updObjects.tsx */}
+      {/*<Scoreboard />    display updObjectsForm.tsx */}
+      {/* <List />    display artistsRemoveArr.tsx */}
+      {/* <List />    display artistsArr.tsx */}
+      <BucketList />    {/* display arrObj.tsx */}
     </div>
    
   )
